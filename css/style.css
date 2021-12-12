@@ -1,0 +1,98 @@
+/*normalizacion general del código*/
+@import url();
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Assistant', sans-serif;
+}
+body{
+
+    width: 100%;
+    height: 300vh;
+    box-sizing: border-box;
+
+}
+/* sección header*/
+
+.contenedor div{
+              
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+    height: 2%;
+    background-color:white;
+    font-size: 2rem;
+    box-sizing: border-box;
+
+}
+
+
+.iniciacion div{
+    display: inline;          
+    width: 100%;
+    height: 2%;
+    background-color:white;
+    font-size: 2rem;
+    box-sizing: border-box;
+
+ 
+
+}
+
+
+
+.iniciacion nav {
+    
+
+    width: 20%;
+    height: 100%;
+
+    color: rgb(178, 184, 180);
+    box-sizing: border-box;
+    height: auto;
+
+}
+.iniciacion-nav-a{
+    display: inline;
+    width: 20%;
+    height: 50%;
+    background-color: rgb(139, 51, 70);
+    color: white;
+    border: rgb(139, 51, 70);
+    border-radius: 20px 20px 20px 20px;
+    font-size: 1.2rem;
+    font-family: 'Assistant', sans-serif;
+    font-family: 'Dancing Script', cursive;
+    box-sizing: border-box;
+    height: auto;
+   
+
+}
+
+
+
+.iniciacion nav a :hover{
+
+    background-color: white;
+    box-sizing: border-box;
+
+}
+
+
+#Videos{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    margin: auto;
+    margin-top: 2%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
